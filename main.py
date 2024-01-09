@@ -15,7 +15,7 @@ st.title(":bar_chart: SCAN AND SHARE - ABDM DASHBOARD")
 st.markdown('<style>div.block-container{padding-top: 2rem} </style>', unsafe_allow_html=True)
 
 # Read data from Excel
-df = pd.read_excel(os.path.join("assests", "Facility_Token_Generation_Trend.xlsx"))
+df = pd.read_excel(os.path.join("assets", "Facility_Token_Generation_Trend.xlsx"))
 
 st.sidebar.header("Choose your filter: ")
 # Create for Region
